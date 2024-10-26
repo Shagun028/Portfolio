@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zilla Slab', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(11, 11, 39);
+    background-image: linear-gradient(to right, #681010, #500d16, #340a12, #1e090d, #000000);
+    color: white;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(100, 24, 24);
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 30%;
+
+}
+
+.leftsection {
+    font-size: 2.5rem;
+
+}
+
+.rightsection img {
+    width: 110%;
+    margin: 50px 0;
+
+}
+
+.yo {
+    font-size: larger;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    font-size: large;
+    padding-top: 50px;
+}
+
+.secondSection {
+    font-size: 30px;
+}
+
+.secondSection ul {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.secondSection ul li::marker {
+    color: rgb(0, 0, 0);
+}
+
+
+#services {
+
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+
+.sub-title span {
+    color: #eef;
+}
+
+.container {
+    padding: 90px;
+}
+
+.services-list {
+
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax (259px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: 0.5s,
+        transform 0.5s;
+    box-shadow: 1px 1px 20px #000000f7,
+        1px 1px 40px #000000
+}
+
+footer {
+    background-color: #000000;
+    height: 233px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-evenly;
+}
+
+.footer div ul li {
+    list-style-type: none;
+    padding: 7px 7px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: rgb(100, 24, 24);
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+}
